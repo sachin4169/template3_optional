@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #f0faf1;
 }
 .container{
     padding: 2%;
     display: flex;
+     background-color: #f0faf1;
 }
 img{
     width: 80%;
@@ -22,9 +22,12 @@ img{
 .col{
     padding: 5%;
 }
+.col:hover{
+    background-color: #9fd8a5;
+}
 p{
     line-height: 1.5;
-    color: #839b75;
+    color: #6e9159;
     font-size: 20px;
 }
 a{
